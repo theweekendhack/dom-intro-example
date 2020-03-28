@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Basic DOM Example</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>  
+        <div class="container">
+            <form>
+                    <div  class="form-control">
+                        <label for="firstNum">First Number</label>
+                        <input type="text" id="firstNum">
+                    </div>
+                    <div class="form-control">
+                        <label for="secondNum">Second Number</label>
+                        <input type="text" id="secondNum">
+                    </div>
+                    <div id="answer"></div>
+                    <div class="form-control">
+                        <input type="button" value="Calculate Sum" id="calculateButton">
+                        <input type="button" value="Calculate Difference" id="calculateDifference">                    
+                    </div>
+            </form>
+        </div>
+          <!-- BEST PRACTICE -->
+        <script src="js/index.js"></script>
+    </body>
+</html>
